@@ -1,0 +1,82 @@
+1) test .parent .child-1{top: 100px;}
+2) remove .parent .child-1{top: 100px;}
+3) add .parent .child-1{position:fixed} //check how it looks in browser
+    we took this element out of document flow - priekš citiem div tas vairs nav interesants
+
+
+4)
+.parent .child-1{
+    position:fixed;
+    width:400px;
+    }
+
+5)
+.parent .child-1{
+    position:fixed;
+    width:400px;
+    top: 100px;
+    }
+
+6)
+.parent .child-1{
+    position:fixed;
+    width:400px;
+    top: 0;
+    }
+
+7)
+.parent .child-1{
+    position:fixed;
+    width:400px;
+    top: 0;
+    margin:0;
+}
+//test scrolling (it's depends on viewport)
+
+8) to prove that it sticks to viewport
+.parent .child-1{
+    position:fixed;
+    width:400px;
+    bottom: 0;
+    margin:0;
+}
+
+9)
+.parent .child-1{
+    position:fixed;
+    width:400px;
+    top: 0;
+    left: 0;
+    margin:0;
+}
+
+
+10)
+.parent .child-1{
+    position:fixed;
+    width:100%;
+    top: 0;
+    left: 0;
+    margin:0;
+}
+
+11) tagad border ir ārpus ekrāna. Vai atceraties kā mēs šo problēmu varējām atrisināt?
+.parent .child-1{
+    position:fixed;
+    width:100%;
+    top: 0;
+    left: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+12) positioning property var lietot arī ne bloka veida elementiem.!
+
+css
+.parent div,
+.parent span{
+...
+}
+
+html
+.parnet .child-1 nomainīt uz span;

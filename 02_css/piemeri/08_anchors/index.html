@@ -1,0 +1,86 @@
+<!-- 
+<style>
+    a{
+        color:green;
+        font-size: 30px;
+    }
+</style>
+
+
+    <style>
+        a{
+            color:green;
+            font-size: 30px;
+            text-decoration:none;
+            font-weight:bold;
+            padding:30px;
+        }
+    </style>
+
+show next slide about pseudo classes and elements
+
+    a:hover{
+        color:blue;
+    }
+
+    a:active{
+        color:blue;
+    }
+
+    a::first-letter{
+
+    }
+
+
+    a::before{
+        content:">";
+    }
+
+        
+    a[target=_blank]::after{
+        content:"Outgoing link";
+        font-size:10px;
+        color:brown
+    }
+
+
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        a{
+            color:green;
+            font-size: 30px;
+            text-decoration: none;
+            font-weight:bold;
+            padding:30px;
+        }
+        a:hover{
+            color:red;
+        }
+
+        a::before{
+            content:">";
+        }
+
+        a[target=_blank]::after{
+            content:"Outgoing link";
+            font-size:10px;
+            color:brown
+        }
+
+    </style>
+</head>
+<body>
+    <a href="#">Home</a>
+    <a href="#">Test</a>
+    <a href="#">Some</a>
+    <a href="#" target="_blank">More</a>
+</body>
+</html>

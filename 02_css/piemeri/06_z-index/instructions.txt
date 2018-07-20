@@ -1,0 +1,40 @@
+1) at packages/packages.css
+.package {
+    ...
+    z-index
+}
+
+z-index default vērtība ir auto jeb 0. Atbild par to kurš elements tiek novietots pirms kura.
+z-index vērtības var būt gan ar - zīmi, gan +
+jau lielāka z-index vērtībā, jo ticamāk tas būs redzams pāri visam.
+
+BET pievienojot z-index elementiem kuriem nav neviena position vērtība (kas atšķiras no default(static)),
+nebūs  nekāda ietekme
+
+2) parādīt
+.package {
+    ...
+    z-index:100;
+}
+
+3)
+remove z-index from package
+.package {
+    ...
+    z-index:100;
+}
+
+4) as we have element with position property aplied we will put z-index to it
+
+.background{
+    ...
+    z-index:-1;
+}
+
+5) it worked
+
+
+6) 
+bet ja mēs nomainām uz +1, tad var redzēt, ka tas ir virs navigation menu
+
+7)test with .main-header

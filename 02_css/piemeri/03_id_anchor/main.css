@@ -1,0 +1,40 @@
+
+p{
+    background:pink;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+div{
+    background-color: blue;
+    width:30%;
+    padding:25px 30px 0px 15px;
+    margin:25px;
+    height:400px;
+    border: 3px solid navy;
+}
+
+li {
+    display: inline;
+}
+
+article{
+    width:33%;
+    display: inline-block;
+}
+
+footer .midl{
+    display: none;
+}
+
+h1{
+    visibility: hidden;
+}
+
+footer div{
+    width:50%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin:0;
+}

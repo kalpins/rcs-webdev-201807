@@ -1,0 +1,57 @@
+1) 
+after body create <div class="background"></div>
+
+2)
+create folder images
+
+3)
+copy image(plans-background.jpg) from materials to newly created folder
+
+4)
+open packages.css
+
+add class
+
+.background{
+    background: url("../images/plans-background.jpg");
+}
+
+5) nothing changed :)
+
+6) 
+.background{
+    background: url("../images/plans-background.jpg");
+    width:100%;
+    height:100%;
+}
+
+7) nothing changed :)
+
+8) 
+.background{
+    background: url("../images/plans-background.jpg");
+    width:500px;
+    height:500px;
+}
+
+9) not nice :)
+
+10)
+.background{
+    background: url("../images/plans-background.jpg");
+    width:500px;
+    height:500px;
+    position:fixed;
+}
+
+11) 
+.background{
+    background: url("../images/plans-background.jpg");
+    width:100%;
+    height:100%;
+    position:fixed;
+}
+
+12) image size is not nice bet mēs to apskatīsimies vēlāk
+
+13) bet šim ir jābūt background image nevis visam pāri, tādēļ apskatīsimies kā to izdarīt

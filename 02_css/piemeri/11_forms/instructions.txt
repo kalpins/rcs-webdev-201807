@@ -1,0 +1,70 @@
+    <style>
+        body{
+            font-size: 20px;
+            box-sizing: border-box;
+        }
+        form.signup-form{
+            width:500px;
+            text-align: center;
+            margin:10px auto;
+        }
+        form.signup-form label,
+        form.signup-form select,
+        form.signup-form input,
+        form.signup-form textarea{
+            display: block;
+            width:100%;
+            
+            font-size: inherit;
+        }
+
+        form.signup-form label{
+            margin-bottom: 10px;
+        }
+
+        form.signup-form select,
+        form.signup-form input,
+        form.signup-form textarea{
+            border:1px solid greenyellow;
+            margin-bottom:20px;
+        }
+
+        form.signup-form input[type="checkbox"]{
+            display: inline-block;
+            width:20px;
+            margin:0;
+            padding:20px;
+        }
+        form.signup-form label[for="agree-terms"]{
+            display: inline-block;
+            width:400px;
+            margin:0;
+            padding:20px;
+        }
+    </style>
+
+
+      <form action="index.html" class="signup-form">
+                <label for="title">Title</label>
+                <select id="title">
+                    <option value="mr">Mr.</option>
+                    <option value="ms">Ms.</option>
+                </select>
+                <label for="first-name">First name</label>
+                <input type="text" id="first-name">
+                <label for="last-name">Last name</label>
+                <input type="text" id="last-name">
+                <label for="email">E-Mail</label>
+                <input type="email" id="email">
+                <label for="password">Password</label>
+                <input type="password" id="password">
+                <input type="checkbox" id="agree-terms">
+                <label for="agree-terms">Agree to
+                    <a href="#">Terms &amp; Conditions</a>
+                </label>
+                <label for="comments">Comments
+                    </label>
+                <textarea id="comments">
+                </textarea>
+                <button type="submit" class="button">Sign Up</button>
+            </form>

@@ -1,0 +1,7 @@
+1) izveidot tādu lapu, kas ir līdzīga 2 attēliem, kas ir pielikumā;
+* būs 2 lapas.
+* izmantot vairākus css, lai atdalītu abu lapu kopīgos elementus no dažādajiem
+
+2) pievienot faviconu (https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_link_sizes)
+
+3) kas sagādāja grūtības?

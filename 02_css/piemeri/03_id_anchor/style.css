@@ -1,0 +1,15 @@
+p{
+    background:red;
+    color:white;
+    font-size: 20px;
+}
+
+
+.multiplebackgrounds{
+    background:
+        url(mannavbilzu.png) center center no-repeat, 
+        url("ticietman.jpg") top left no-repeat,
+        #449322;
+
+        background-size: cover;
+}

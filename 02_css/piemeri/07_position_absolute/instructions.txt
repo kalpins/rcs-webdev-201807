@@ -1,0 +1,69 @@
+1)
+
+place h2.package__badge with text recomended under h1.plus
+
+2)
+
+create .package__badge in css
+
+3)
+
+add position:fixed
+and check how it looks
+
+4)
+add top:0;
+and left:0;
+
+5) check how it looks
+
+6)
+add margin:30px;
+check how it looks and try to scroll
+
+7)
+change to absolute
+
+and show that it sticks to html as there is no other elements with position style
+
+8)
+add position:absolute to .package
+
+9)
+so now we see that all packages are on top. 
+
+10) as absolute was not the right answer, there is one more position style = "relative"
+
+11) 
+    .package:relative;
+
+12)
+
+Tātad absolute pozīcija meklē tuvāko parent elementu ar position stilu un no tā tiek rēķinātas tālākās lietas
+
+
+13) sataisīsim recomended skaistu
+
+.package__badge{
+    ...
+    font-size:12px;
+    color:#fff;
+    background-color:#ff5454;
+    padding:8px;
+}
+
+
+14) let's change position
+
+.package__badge{
+    right:40px;
+}
+
+15) nedaudz par tālu jo tiek ņemts vērā arī margin
+
+16) tādēļ 
+.package__badge{
+    right:0;
+}
+
+17) last step .main_header {z-index:1}

@@ -1,0 +1,28 @@
+/* CSS failā izveidot sekojošu stilu priekš div bloka
+Fona krāsa – blue;
+Platums - 30%;
+Padding augšā 25px;
+Padding apakšā 0px;
+Padding labajā pusē 30px;
+Padding kreisajā pusē 15px;
+Margin – 25px;
+border krāsa “navy“;
+border - 3px;
+Augstums – 400px; */
+
+
+p{
+    background:pink;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+div{
+    background-color: blue;
+    width:30%;
+    padding:25px 30px 0px 15px;
+    margin:25px;
+    height:400px;
+    border: 3px solid navy;
+}
